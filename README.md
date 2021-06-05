@@ -1,6 +1,8 @@
 # blog-fastapi-ml
 
-[Machine Learning real-time prediction using Docker & Python (FastAPI) by Zi-long QIU](https://scrat.academy/machine-learning-real-time-prediction-using-docker-and-python/)
+[Machine Learning real-time prediction using Docker & Python (FastAPI)](https://scrat.academy/machine-learning-real-time-prediction-using-docker-and-python/) by Zi-long QIU
+
+For more informations, please visit my blog [Scrat Academy](https://scrat.academy/)
 
 ## Requirements
 
@@ -10,11 +12,11 @@
 ## Installation
 
 - Run `make up`
-And then you can visit `http://localhost:80/`
+And then you can visit `http://localhost:80/docs`
 
 ## Commands
 
-- `make up` (_full install_) run the project in docker and expose `http://localhost:80/`
+- `make up` (_full install_) run the project in docker and expose `http://localhost:80/docs`
 - `make down` stop the project
 - `make test` execute the tests (requirement: `make up` running)
 - `make logs` allow to see the docker logs
