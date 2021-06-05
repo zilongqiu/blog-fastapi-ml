@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  blog-fastapi-ml:
+    build:
+      context: .
+    container_name: blog-fastapi-ml
+    ports:
+      - "80:80"
+    volumes:
+      - ./api:/app
+    entrypoint: /start-reload.sh

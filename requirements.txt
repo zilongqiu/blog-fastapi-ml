@@ -1,0 +1,6 @@
+sklearn
+pandas
+
+python-multipart
+pytest
+requests
