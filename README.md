@@ -8,12 +8,6 @@ For more informations, please visit my blog [Scrat Academy](https://scrat.academ
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-- Python libraries
-  - sklearn
-  - pandas
-  - python-multipart
-  - pytest
-  - requests
 
 ## Installation
 
@@ -22,6 +16,14 @@ And then you can visit `http://localhost:80/docs`
 
 ![Swagger Predict](https://github.com/zilongqiu/blog-fastapi-ml/blob/main/images/swagger_predict.png?raw=true)
 ![Swagger Result](https://github.com/zilongqiu/blog-fastapi-ml/blob/main/images/swagger_result.png?raw=true)
+
+Python libraries that is installed in the container
+
+- sklearn
+- pandas
+- python-multipart
+- pytest
+- requests
 
 ## Commands
 
